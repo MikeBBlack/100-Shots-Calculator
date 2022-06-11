@@ -5,7 +5,7 @@ def shots_game(num_shots):
 
     #Loop through each person
     for person_number in range(1, num_shots+1):
-        # Initialise counter for each person to allow for 
+        # Initialise counter for each person to allow for optional statement below
         bought_by_person = 0
         # Loop through each shot glass
         # If the glass is divisible by the person's number, fill/empty the glass as needed
